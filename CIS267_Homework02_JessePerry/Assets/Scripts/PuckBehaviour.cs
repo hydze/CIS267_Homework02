@@ -28,7 +28,7 @@ public class PuckBehaviour : MonoBehaviour
         if(!addSpeedActive)
         {
             addSpeedActive = true;
-            Invoke("addSpeed", 10);
+            Invoke("addSpeed", 15);
         }
     }
 

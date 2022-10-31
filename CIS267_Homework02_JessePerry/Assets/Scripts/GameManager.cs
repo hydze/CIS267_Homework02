@@ -33,4 +33,35 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene("Level" + lvl);
     }
+
+    public void restartLevel()
+    {
+
+    }
+
+    public void gameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+
+    public void onBrickHit(BrickBehaviour brick)
+    {
+        score += brick.points;
+        Debug.Log(score);
+    }
+
+    public void onBorderHit()
+    {
+        lives--;
+        checkLives();
+    }
+
+    public void checkLives()
+    {
+        if (lives >= 0)
+        {
+            restartLevel();
+        }
+        else gameOver();
+    }
 }

@@ -171,6 +171,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (7)
@@ -241,6 +245,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -358,13 +366,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174293475}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7665526, y: 9.849923, z: 0.52118754}
   m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 755345454}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &217846283
 PrefabInstance:
@@ -373,6 +381,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (3)
@@ -443,6 +455,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (1)
@@ -513,6 +529,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -587,6 +607,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -661,6 +685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -735,6 +763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -809,6 +841,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (8)
@@ -879,6 +915,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -953,6 +993,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1193,6 +1237,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1303,6 +1351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (6)
@@ -1373,6 +1425,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1447,6 +1503,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1521,6 +1581,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (1)
@@ -1584,6 +1648,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3509217833494603619, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
   m_PrefabInstance: {fileID: 749579578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &755345453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755345454}
+  m_Layer: 0
+  m_Name: Borders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755345454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755345453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7665526, y: 0.650077, z: -0.52118754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 174293477}
+  - {fileID: 999088256}
+  - {fileID: 2066626626}
+  - {fileID: 2054675677}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &755662488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1591,6 +1690,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (7)
@@ -1673,7 +1776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &763540382
 Transform:
   m_ObjectHideFlags: 0
@@ -1727,11 +1830,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.75
+  m_Mass: 0.4
   m_LinearDrag: 8
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d070acc968fb11a45a35fcd87f5e2da2, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1800,7 +1903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aacd410fde002c4bb0cdfeab4310f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 75
+  speed: 80
+  bAngle: 75
 --- !u!1001 &809825778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1808,6 +1912,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (2)
@@ -1878,6 +1986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (4)
@@ -1948,6 +2060,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2022,6 +2138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (6)
@@ -2092,6 +2212,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (2)
@@ -2205,13 +2329,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999088254}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.275, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.508448, y: -0.650077, z: 0.52118754}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 755345454}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1009029607
 PrefabInstance:
@@ -2220,6 +2344,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2294,6 +2422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (9)
@@ -2364,6 +2496,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2438,6 +2574,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2512,6 +2652,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2586,6 +2730,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2660,6 +2808,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2734,6 +2886,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2808,6 +2964,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (9)
@@ -2878,6 +3038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2952,6 +3116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3026,6 +3194,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3100,6 +3272,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3174,6 +3350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (3)
@@ -3244,6 +3424,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9867648}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3318,6 +3502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (4)
@@ -3388,6 +3576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (5)
@@ -3458,6 +3650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3532,6 +3728,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (8)
@@ -3610,7 +3810,7 @@ GameObject:
   - component: {fileID: 1632075664}
   m_Layer: 0
   m_Name: Puck
-  m_TagString: Untagged
+  m_TagString: Puck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3650,7 +3850,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: 19d7be4a35d769c418720664e48d1777, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1632075662
 SpriteRenderer:
@@ -3731,7 +3931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf89ac7ae0efb743a06d644a50b7a56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 750
+  speed: 18
 --- !u!1 &1713174938
 GameObject:
   m_ObjectHideFlags: 0
@@ -3780,6 +3980,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3854,6 +4058,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3933,6 +4141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4048,6 +4260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1713174939}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4122,6 +4338,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4196,6 +4416,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick (5)
@@ -4266,6 +4490,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 511541545}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -4336,6 +4564,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1910536498}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4453,13 +4685,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054675675}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7665526, y: -11.150077, z: 0.52118754}
   m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 755345454}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2066626624
 GameObject:
@@ -4511,13 +4743,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066626624}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.275, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.041552, y: -0.650077, z: 0.52118754}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 755345454}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3509217831995108114
 PrefabInstance:
@@ -4526,6 +4758,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509217833494603618, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Name
       value: Brick

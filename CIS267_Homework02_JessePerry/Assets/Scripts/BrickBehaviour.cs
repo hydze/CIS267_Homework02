@@ -17,11 +17,7 @@ public class BrickBehaviour : MonoBehaviour
 
     private void Start()
     {
-        if(!unbreakable)
-        {
-            health = condition.Length;
-            sr.sprite = condition[health - 1];
-        }
+        resetBrick();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -29,6 +25,17 @@ public class BrickBehaviour : MonoBehaviour
         if (collision.gameObject.name == "Puck")
         {
             brickHit();
+        }
+    }
+
+    public void resetBrick()
+    {
+        this.gameObject.SetActive(true);
+
+        if (!unbreakable)
+        {
+            health = condition.Length;
+            sr.sprite = condition[health - 1];
         }
     }
 

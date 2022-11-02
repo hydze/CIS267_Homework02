@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public PuckBehaviour puck { get; set; }
+    public PaddleMovement paddle { get; set; }
+    public BrickBehaviour[] bricks { get; set; }
+
     public int level = 1;
     public int score = 0;
     public int lives = 3;
@@ -12,17 +16,19 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+
+        SceneManager.sceneLoaded += onLevelLoad;
     }
 
     private void Start()
     {
-        NewGame();
+        newGame();
     }
 
-    private void NewGame()
+    public void newGame()
     {
-        this.score = 0;
-        this.lives = 0;
+        score = 0;
+        lives = 3;
 
         loadLevel(1);
     }
@@ -34,9 +40,22 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Level" + lvl);
     }
 
-    public void restartLevel()
+    private void onLevelLoad(Scene scene, LoadSceneMode mode)
     {
+        puck = FindObjectOfType<PuckBehaviour>();
+        paddle = FindObjectOfType<PaddleMovement>();
+        bricks = FindObjectsOfType<BrickBehaviour>();
+    }
 
+    private void resetLevel()
+    {
+        puck.resetPuck();
+        paddle.resetPaddle();
+
+        //for (int i = 0; i < bricks.Length; i++)
+        //{
+        //    bricks[i].resetBrick();
+        //}
     }
 
     public void gameOver()
@@ -47,21 +66,28 @@ public class GameManager : MonoBehaviour
     public void onBrickHit(BrickBehaviour brick)
     {
         score += brick.points;
-        Debug.Log(score);
+        //Debug.Log(score);
     }
 
     public void onBorderHit()
     {
+        //Debug.Log("enter function");
         lives--;
         checkLives();
     }
 
     public void checkLives()
     {
-        if (lives >= 0)
+        if (lives > 0)
         {
-            restartLevel();
+            resetLevel();
         }
         else gameOver();
+    }
+
+    public string scoreString()
+    {
+        string s = "score: " + score;
+        return s;
     }
 }

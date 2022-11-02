@@ -14,6 +14,12 @@ public class PaddleMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public void resetPaddle()
+    {
+        this.transform.position = new Vector2(0f, this.transform.position.y);
+        this.rb.velocity = Vector2.zero;
+    }
+
     private void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))

@@ -17,6 +17,16 @@ public class PuckBehaviour : MonoBehaviour
 
     private void Start()
     {
+        resetPuck();
+    }
+
+    public void resetPuck()
+    {
+        this.transform.position = Vector2.zero;
+        this.rb.velocity = Vector2.zero;
+
+        speed = 15;
+
         addSpeedActive = false;
         Invoke("setDirection", 1);
     }

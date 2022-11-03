@@ -8,8 +8,9 @@ public class BrickBehaviour : MonoBehaviour
     public SpriteRenderer sr { get; set; }
     public BrickBehaviour[] brick;
     public Sprite[] condition;
-    public bool unbreakable;
     public int points = 1000;
+    private int randHeatlh;
+    public bool canDrop;
 
     private void Awake()
     {
@@ -19,6 +20,12 @@ public class BrickBehaviour : MonoBehaviour
     private void Start()
     {
         resetBrick();
+        generateRandomHealth();
+    }
+
+    private void Update()
+    {
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -31,27 +38,25 @@ public class BrickBehaviour : MonoBehaviour
 
     private void generateRandomHealth()
     {
-        for (int i = 0; i > 50; i++)
-        {
-            
-        }
+        randHeatlh = Random.Range(1, 4);
+        health = randHeatlh;
+        sr.sprite = condition[randHeatlh-1];
     }
 
     public void resetBrick()
     {
         this.gameObject.SetActive(true);
+        health = condition.Length;
+        sr.sprite = condition[health - 1];
+    }
 
-        if (!unbreakable)
-        {
-            health = condition.Length;
-            sr.sprite = condition[health - 1];
-        }
+    private void canDrop()
+    {
+        
     }
 
     private void brickHit()
     {
-        if (unbreakable) return;
-
         health--;
 
         if(health<= 0)

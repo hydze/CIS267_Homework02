@@ -6,6 +6,7 @@ public class BrickBehaviour : MonoBehaviour
 {
     public int health { get; set;}
     public SpriteRenderer sr { get; set; }
+    public BrickBehaviour[] brick;
     public Sprite[] condition;
     public bool unbreakable;
     public int points = 1000;
@@ -25,6 +26,14 @@ public class BrickBehaviour : MonoBehaviour
         if (collision.gameObject.name == "Puck")
         {
             brickHit();
+        }
+    }
+
+    private void generateRandomHealth()
+    {
+        for (int i = 0; i > 50; i++)
+        {
+            
         }
     }
 

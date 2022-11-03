@@ -3120,6 +3120,14 @@ PrefabInstance:
       propertyPath: condition.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b70bca68e7a09dc4c98a00d4b2caa6d8, type: 3}
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: condition.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: b70bca68e7a09dc4c98a00d4b2caa6d8, type: 3}
     - target: {fileID: 3509217833494603617, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4771,6 +4779,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 564876566}
     m_Modifications:
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: unbreakable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
+      propertyPath: brick.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2274008674411301433, guid: 5d5ad599508a4df468432efdc87a5f69, type: 3}
       propertyPath: condition.Array.size
       value: 1

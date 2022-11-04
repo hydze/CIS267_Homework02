@@ -10,7 +10,7 @@ public class BrickBehaviour : MonoBehaviour
     public Sprite[] condition;
     public int points = 1000;
     private int randHeatlh;
-    public bool canDrop;
+    //public bool canDrop;
 
     private void Awake()
     {
@@ -50,10 +50,10 @@ public class BrickBehaviour : MonoBehaviour
         sr.sprite = condition[health - 1];
     }
 
-    private void canDrop()
-    {
+    //private void canDrop()
+    //{
         
-    }
+    //}
 
     private void brickHit()
     {

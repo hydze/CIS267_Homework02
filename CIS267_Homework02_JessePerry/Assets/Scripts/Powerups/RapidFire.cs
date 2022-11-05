@@ -12,6 +12,7 @@ public class RapidFire : MonoBehaviour
             if (collision.gameObject.CompareTag("Paddle"))
             {
                 FindObjectOfType<GameManager>().isRapid = true;
+                FindObjectOfType<GameManager>().invokeReverseRapid();
             }
         }
     }

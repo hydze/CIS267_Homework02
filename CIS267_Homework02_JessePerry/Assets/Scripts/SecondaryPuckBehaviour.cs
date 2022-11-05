@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuckBehaviour : MonoBehaviour
+public class SecondaryPuckBehaviour : MonoBehaviour
 {
     public Rigidbody2D rb { get; set; }
     public float speed;
     private bool addSpeedActive;
-
-
 
     private void Awake()
     {
@@ -18,28 +16,23 @@ public class PuckBehaviour : MonoBehaviour
     private void Start()
     {
         resetPuck();
-    }
-
-    public void resetPuck()
-    {
-        this.transform.position = Vector2.zero;
-        this.rb.velocity = Vector2.zero;
-
-        speed = 15;
-
-        addSpeedActive = false;
-        Invoke("setDirection", 1);
+        Invoke("deletePuck", 15);
     }
 
     private void LateUpdate()
     {
         rb.velocity = speed * (rb.velocity.normalized);
 
-        if(!addSpeedActive)
+        if (!addSpeedActive)
         {
             addSpeedActive = true;
             Invoke("addSpeed", 15);
         }
+    }
+    public void resetPuck()
+    {
+        addSpeedActive = false;
+        setDirection();
     }
 
     private void addSpeed()
@@ -52,8 +45,8 @@ public class PuckBehaviour : MonoBehaviour
     private void setDirection()
     {
         Vector2 force = Vector2.zero;
-        force.x = Random.Range(-1f, 1f);
-        force.y = -1f;
+        force.x = Random.Range(-.2f, .2f);
+        force.y = 1;
 
         rb.AddForce(force);
     }
@@ -62,7 +55,13 @@ public class PuckBehaviour : MonoBehaviour
     {
         if (collision.gameObject.tag == "PBorder")
         {
-            resetPuck();
+            deletePuck();
         }
     }
+
+    private void deletePuck()
+    {
+        Destroy(this.gameObject);
+    }
 }
+

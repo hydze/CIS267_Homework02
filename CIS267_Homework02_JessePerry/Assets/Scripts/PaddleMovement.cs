@@ -9,6 +9,12 @@ public class PaddleMovement : MonoBehaviour
     public float speed;
     public float bAngle;
 
+    //Rapid Fire Powerup Variables
+    public float firingRate;
+    public GameObject projectile;
+    private float timeBetweenShots;
+    private bool canFire = true;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -46,6 +52,27 @@ public class PaddleMovement : MonoBehaviour
         {
             direction = Vector2.zero;
         }
+
+        if (FindObjectOfType<GameManager>().isRapid)
+        {
+            if(timeBetweenShots<= 0)
+            {
+                timeBetweenShots = firingRate;
+                canFire = true;
+            } else
+            {
+                timeBetweenShots -= Time.deltaTime;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (canFire)
+                {
+                    shootPucks();
+                    canFire = false;
+                }
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -78,5 +105,10 @@ public class PaddleMovement : MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
             puck.rb.velocity = rotation * Vector2.up * puck.rb.velocity.magnitude;
         }
+    }
+
+    private void shootPucks()
+    {
+        Instantiate(projectile, this.transform.position, this.transform.rotation);
     }
 }

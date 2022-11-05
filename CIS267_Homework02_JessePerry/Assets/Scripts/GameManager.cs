@@ -92,6 +92,17 @@ public class GameManager : MonoBehaviour
         isFlipped = false;
     }
 
+    //---------------------------
+    public void invokeReverseRapid()
+    {
+        Invoke("reverseRapid", 5);
+    }
+
+    public void reverseRapid()
+    {
+        isRapid = false;
+    }
+    //----------------------------
     public void checkLives()
     {
         if (lives > 0)

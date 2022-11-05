@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5831214028217526258}
   - component: {fileID: 5831214028217526257}
   - component: {fileID: 5831214028217526256}
-  - component: {fileID: 5831214028217526255}
+  - component: {fileID: 3006472935473764348}
   m_Layer: 0
   m_Name: Secondary Puck
   m_TagString: SPuck
@@ -124,7 +124,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.62097746
---- !u!114 &5831214028217526255
+--- !u!114 &3006472935473764348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5831214028217526254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cf89ac7ae0efb743a06d644a50b7a56, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a17ccea9fe16fc4c83ee8734b7bbbb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10

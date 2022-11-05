@@ -48,7 +48,7 @@ public class BrickBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Puck")
+        if (collision.gameObject.tag == "Puck" || collision.gameObject.tag == "SPuck")
         {
             brickHit();
         }
@@ -84,7 +84,7 @@ public class BrickBehaviour : MonoBehaviour
             {
                 Instantiate(addPuckPowerup, this.transform.position, this.transform.rotation);
             }
-            if(!isTierThree && !isTierFive && rng >=12)
+            if(!isTierThree && !isTierFive && rng >=14)
             {
                 Instantiate(flipMovementPowerup, this.transform.position, this.transform.rotation);
             }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9006052004542630601}
   - component: {fileID: 5031374442815145524}
   - component: {fileID: 1156516666765643142}
+  - component: {fileID: -5456366219807758356}
   m_Layer: 0
   m_Name: Rapid Fire Powerup
   m_TagString: Untagged
@@ -133,3 +134,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-5456366219807758356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006052004542630600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52723a4aa8512cc4caa6290c4625f17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

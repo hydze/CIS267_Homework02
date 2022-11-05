@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public int level = 1;
     public int score = 0;
     public int lives = 3;
+    public bool isFlipped = false;
+    public bool isRapid = false;
 
     private void Awake()
     {
@@ -54,6 +56,7 @@ public class GameManager : MonoBehaviour
         paddle.resetPaddle();
         puck.resetPuck();
         destroyExtraPucks();
+        isFlipped = false;
 
         //for (int i = 0; i < bricks.Length; i++)
         //{
@@ -77,6 +80,16 @@ public class GameManager : MonoBehaviour
         //Debug.Log("enter function");
         lives--;
         checkLives();
+    }
+
+    public void invokeReverseFlip()
+    {
+        Invoke("reverseFlip", 8);
+    }
+
+    public void reverseFlip()
+    {
+        isFlipped = false;
     }
 
     public void checkLives()

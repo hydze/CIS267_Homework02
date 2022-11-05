@@ -24,11 +24,24 @@ public class PaddleMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            direction = Vector2.left;
+            if (FindObjectOfType<GameManager>().isFlipped)
+            {
+                direction = Vector2.right;
+            } else
+            {
+                direction = Vector2.left;
+            }
         }
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            direction = Vector2.right;
+            if (FindObjectOfType<GameManager>().isFlipped) 
+            {
+                direction = Vector2.left;
+            }
+            else
+            {
+                direction = Vector2.right;
+            }
         } else
         {
             direction = Vector2.zero;

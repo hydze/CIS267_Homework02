@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class RapidFire : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.CompareTag("Paddle") || collision.gameObject.CompareTag("Border"))
+        {
+            Destroy(this.gameObject);
+            if (collision.gameObject.CompareTag("Paddle"))
+            {
+                FindObjectOfType<GameManager>().isRapid = true;
+            }
+        }
     }
 }

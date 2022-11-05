@@ -6,7 +6,7 @@ public class BorderControl : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Puck")
+        if (collision.gameObject.tag == "Puck")
         {
             FindObjectOfType<GameManager>().onBorderHit();
         }

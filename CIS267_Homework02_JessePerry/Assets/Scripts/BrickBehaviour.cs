@@ -28,23 +28,17 @@ public class BrickBehaviour : MonoBehaviour
     {
         resetBrick();
         generateRandomHealth();
-    }
-
-    private void Update()
-    {
         tierChecker();
     }
 
     public void tierChecker()
     {
-        if (health >= 4 )
+        if (health >= 4)
         {
             isTierFive = true;
-            Debug.Log("logan likes men");
         } else if (health >= 3)
         {
             isTierThree = true;
-            Debug.Log("wow likes men");
             return;
         } else
         {
@@ -54,7 +48,7 @@ public class BrickBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Puck")
+        if (collision.gameObject.tag == "Puck")
         {
             brickHit();
         }

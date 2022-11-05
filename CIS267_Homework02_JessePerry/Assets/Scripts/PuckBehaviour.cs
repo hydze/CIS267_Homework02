@@ -22,6 +22,7 @@ public class PuckBehaviour : MonoBehaviour
 
     public void resetPuck()
     {
+        Debug.Log("wooooahahahh");
         this.transform.position = Vector2.zero;
         this.rb.velocity = Vector2.zero;
 
@@ -45,13 +46,8 @@ public class PuckBehaviour : MonoBehaviour
     private void addSpeed()
     {
         speed++;
-        resetDelay();
-        Debug.Log(speed);
-    }
-
-    private void resetDelay()
-    {
         addSpeedActive = false;
+        Debug.Log(speed);
     }
 
     private void setDirection()
@@ -63,4 +59,11 @@ public class PuckBehaviour : MonoBehaviour
         rb.AddForce(force);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "PBorder")
+        {
+            resetPuck();
+        }
+    }
 }

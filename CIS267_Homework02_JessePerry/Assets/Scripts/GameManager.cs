@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public PuckBehaviour puck { get; set; }
+    public PuckBehaviour puck2 { get; set; }
+    public PuckBehaviour puck3 { get; set; }
     public PaddleMovement paddle { get; set; }
     public BrickBehaviour[] bricks { get; set; }
 
@@ -40,7 +42,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Level" + lvl);
     }
 
-    private void onLevelLoad(Scene scene, LoadSceneMode mode)
+    public void onLevelLoad(Scene scene, LoadSceneMode mode)
     {
         puck = FindObjectOfType<PuckBehaviour>();
         paddle = FindObjectOfType<PaddleMovement>();
@@ -49,8 +51,9 @@ public class GameManager : MonoBehaviour
 
     private void resetLevel()
     {
-        puck.resetPuck();
         paddle.resetPaddle();
+        puck.resetPuck();
+        destroyExtraPucks();
 
         //for (int i = 0; i < bricks.Length; i++)
         //{
@@ -89,5 +92,16 @@ public class GameManager : MonoBehaviour
     {
         string s = "score: " + score;
         return s;
+    }
+
+    public void destroyExtraPucks()
+    {
+        foreach (GameObject puckAmt in GameObject.FindGameObjectsWithTag("Puck"))
+        {
+            if (puckAmt.name == "Puck(Clone)")
+            {
+                Destroy(puckAmt);
+            }
+        }
     }
 }

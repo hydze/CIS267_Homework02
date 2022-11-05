@@ -7,6 +7,8 @@ TagManager:
   - Border
   - Puck
   - SPuck
+  - Paddle
+  - PBorder
   layers:
   - Default
   - TransparentFX

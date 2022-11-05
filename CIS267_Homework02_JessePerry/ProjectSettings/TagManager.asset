@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Border
   - Puck
+  - SPuck
   layers:
   - Default
   - TransparentFX

@@ -5,11 +5,18 @@ using UnityEngine;
 public class BrickBehaviour : MonoBehaviour
 {
     public int health { get; set;}
+    public GameObject flipMovementPowerup;
+    public GameObject addPuckPowerup;
+    public GameObject rapidFirePowerup;
     public SpriteRenderer sr { get; set; }
     public BrickBehaviour[] brick;
     public Sprite[] condition;
     public int points = 1000;
     private int randHeatlh;
+    public bool isTierThree;
+    public bool isTierFive;
+
+
     //public bool canDrop;
 
     private void Awake()
@@ -25,7 +32,24 @@ public class BrickBehaviour : MonoBehaviour
 
     private void Update()
     {
-        
+        tierChecker();
+    }
+
+    public void tierChecker()
+    {
+        if (health >= 4 )
+        {
+            isTierFive = true;
+            Debug.Log("logan likes men");
+        } else if (health >= 3)
+        {
+            isTierThree = true;
+            Debug.Log("wow likes men");
+            return;
+        } else
+        {
+            return;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -50,18 +74,27 @@ public class BrickBehaviour : MonoBehaviour
         sr.sprite = condition[health - 1];
     }
 
-    //private void canDrop()
-    //{
-        
-    //}
-
     private void brickHit()
     {
         health--;
 
         if(health<= 0)
         {
+            int rng = Random.Range(1, 15);
             this.gameObject.SetActive(false);
+            if (isTierFive && rng == 7)
+            {
+                Instantiate(rapidFirePowerup, this.transform.position, this.transform.rotation);
+            }
+            if(isTierThree && rng >= 12)
+            {
+                Instantiate(addPuckPowerup, this.transform.position, this.transform.rotation);
+            }
+            if(!isTierThree && !isTierFive && rng >=12)
+            {
+                Instantiate(flipMovementPowerup, this.transform.position, this.transform.rotation);
+            }
+
         }
         else sr.sprite = condition[health - 1];
 

@@ -34,10 +34,10 @@ public class GameManager : MonoBehaviour
         score = 0;
         lives = 3;
 
-        loadLevel(1);
+        SceneManager.LoadScene("MainMenu");
     }
 
-    private void loadLevel(int lvl)
+    public void loadLevel(int lvl)
     {
         this.level = lvl;
 

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3006472935473764348}
   m_Layer: 0
   m_Name: Secondary Puck
-  m_TagString: SPuck
+  m_TagString: PWUP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BrickBehaviour : MonoBehaviour
 {
@@ -56,9 +57,16 @@ public class BrickBehaviour : MonoBehaviour
 
     private void generateRandomHealth()
     {
-        randHeatlh = Random.Range(1, 4);
+        if (SceneManager.GetActiveScene().name == "Level1")
+        {
+            randHeatlh = Random.Range(1, 4);
+        } else if (SceneManager.GetActiveScene().name == "Level2")
+        {
+            randHeatlh = Random.Range(1, 6);
+        }
+
         health = randHeatlh;
-        sr.sprite = condition[randHeatlh-1];
+        sr.sprite = condition[randHeatlh - 1];
     }
 
     public void resetBrick()

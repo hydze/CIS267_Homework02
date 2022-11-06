@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public PuckBehaviour puck { get; set; }
-    public PuckBehaviour puck2 { get; set; }
-    public PuckBehaviour puck3 { get; set; }
     public PaddleMovement paddle { get; set; }
     public BrickBehaviour[] bricks { get; set; }
 
@@ -32,6 +30,7 @@ public class GameManager : MonoBehaviour
     public void newGame()
     {
         score = 0;
+        level = 1;
         lives = 3;
 
         SceneManager.LoadScene("MainMenu");
@@ -72,7 +71,24 @@ public class GameManager : MonoBehaviour
     public void onBrickHit(BrickBehaviour brick)
     {
         score += brick.points;
+
+        if(haveClearedBoard())
+        {
+            loadLevel(this.level + 1);
+        }
         //Debug.Log(score);
+    }
+
+    private bool haveClearedBoard()
+    {
+        for (int i = 0; i < bricks.Length; i++)
+        {
+            if (this.bricks[i].gameObject.activeInHierarchy)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public void onBorderHit()
@@ -120,12 +136,38 @@ public class GameManager : MonoBehaviour
 
     public void destroyExtraPucks()
     {
-        foreach (GameObject puckAmt in GameObject.FindGameObjectsWithTag("Puck"))
+        foreach (GameObject puckAti in GameObject.FindGameObjectsWithTag("Puck"))
         {
-            if (puckAmt.name == "Puck(Clone)")
+            if (puckAti.name == "Puck(Clone)")
             {
-                Destroy(puckAmt);
+                Destroy(puckAti);
             }
         }
+
+        foreach (GameObject pwupAti in GameObject.FindGameObjectsWithTag("PWUP"))
+        {
+            if (pwupAti.name == "Flip Movement Powerup(Clone)")
+            {
+                Destroy(pwupAti);
+            }
+
+            if (pwupAti.name == "Add Puck Powerup(Clone)")
+            {
+                Destroy(pwupAti);
+            }
+
+            if (pwupAti.name == "Rapid Fire Powerup(Clone)")
+            {
+                Destroy(pwupAti);
+            }
+
+            if(pwupAti.name == "Secondary Puck(Clone)")
+            {
+                Destroy(pwupAti);
+            }
+        }
+
+
+
     }
 }

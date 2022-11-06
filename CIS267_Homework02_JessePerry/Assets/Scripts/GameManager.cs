@@ -74,6 +74,10 @@ public class GameManager : MonoBehaviour
 
         if(haveClearedBoard())
         {
+            if(this.level == 2)
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
             loadLevel(this.level + 1);
         }
         //Debug.Log(score);
